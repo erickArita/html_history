@@ -1,7 +1,7 @@
 {
   "name": "historia_html",
   "version": "1.0.0",
-  "description": "",
+  "description": "historia de html",
   "main": "index.js",
   "dependencies": {
     "@popperjs/core": "^2.4.2",
