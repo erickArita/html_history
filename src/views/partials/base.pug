@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href='bootstrap/dist/css/bootstrap.min.css')
+        script(src="jquery/dist/jquery.min.js")
+        script(src="@popperjs/core/dist/umd/popper.min.js")
+        script(src="bootstrap/dist/js/bootstrap.min.js")
+        link(rel="stylesheet", href="font-awesome/css/font-awesome.min.css")
+        link(rel="stylesheet", href="css/index.css")
+        title Historia de HTML
+    body
+        header
+            nav(class="nav navbar navbar bg-header " )
+               
+                a(href='/')
+                        img(src="logo.png" class='img-fluid img' alt="logotipo html") 
+                    
+                a(href='/' , class='navbar-brand nav-tittle ') HTML
+      
+                ul.nav.justify-content-end
+                    li.nav-item 
+                        a(class='nav-link  h-text ' href='/') INICIO
+                    li.nav-item 
+                        a(class='nav-link  h-text' href='/historia') HISTORIA
+                    li.nav-item 
+                        a(class='nav-link  h-text' href='/etiquetas') ETIQUETAS BÁSICAS
+        block content
+
+        footer 
+            ul.nav.justify-content-start.bg-footer
+                li.nav-item 
+                    a(class='nav-link  h-text' href='/') INICIO
+                li.nav-item 
+                    a(class='nav-link h-text' href='/historia') HISTORIA
+                li.nav-item 
+                    a(class='nav-link h-text' href='/etiquetas') ETIQUETAS BÁSICAS
+                 
+                         
+                        

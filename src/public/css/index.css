@@ -1,0 +1,89 @@
+ body {
+     scroll-behavior: smooth;
+
+ }
+
+ body::-webkit-scrollbar {
+     width: 12px;
+ }
+
+ body::-webkit-scrollbar-track {
+     border-radius: 10px;
+     background-color: rgba(255, 255, 255, 0.4);
+ }
+
+ body::-webkit-scrollbar-thumb {
+     background-color: #000000;
+     border-radius: 10px;
+ }
+
+ .img {
+     padding-left: 3em;
+     height: 3em;
+
+ }
+
+ i {
+     color: brown;
+     font-size: 3rem;
+ }
+
+ .h-text {
+     color: white;
+     font-size: 20px;
+     transition: 800ms;
+ }
+
+ .h-text:hover {
+     color: rgba(23, 131, 255, 0.678);
+     transition: 800ms;
+ }
+
+ .text {
+     color: white;
+     transition: 800ms;
+ }
+
+ .text:hover {
+     color: rgb(255, 255, 255);
+     transition: 800ms;
+ }
+
+ .bg {
+     /* background-image:url('../bg.jpg'); */
+     background-size: contain;
+     background-position-x: center;
+     height: 100vh;
+     background-repeat: no-repeat;
+ }
+
+ .nav-tittle {
+     margin-right: -20%;
+ }
+
+
+ .bar {
+     min-width: 10%;
+     max-width: 70%;
+ }
+
+ /* footer */
+
+ .bg-footer {
+     background-color: #130d0d;
+ }
+ .bg-header {
+     background-color: #130d0de3;
+ }
+
+ /* color encima del bg */
+ .screen-color {
+     height: 100%;
+     background-image: linear-gradient(to left bottom, #0b2fae, #2d47bd, #455ecb, #5c75d8, #738ce5);
+ }
+
+ /* h1 */
+ h1 {
+     color: white;
+     font-size: 3em;
+ }
