@@ -2,7 +2,7 @@
   "name": "historia_html",
   "version": "1.0.0",
   "description": "historia de html",
-  "main": "index.js",
+  "main": "node src/app.js",
   "dependencies": {
     "@popperjs/core": "^2.4.2",
     "bootstrap": "^4.5.0",
@@ -19,6 +19,6 @@
     "start":"node src/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Erick Arita",
   "license": "ISC"
 }
