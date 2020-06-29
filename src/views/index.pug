@@ -1,10 +1,23 @@
 extends ./partials/base.pug
-    
-block content
-    .bg-light.bg
-        .screen-color 
-            .container
-                h1.pt-5.text-center ¿QUÉ ES HTML?
-            
-            
 
+
+block content
+    .bg-light.bg.screen-color
+
+        .justify-content-center.h-110
+
+            h1.pt-5.text-center ¿QUÉ ES HTML?
+            .card.m-auto.cardH
+                .card-body
+                    p.font.card-text.right HTML“Hyper Text Markup Language” que traducido al español es “Lenguaje de Marcas de Hipertexto” HTML es el lenguaje utilizado para la estructuración de texto.    
+            img.img-content.left(src="bg.jpg", alt="b")        
+    #historia.bg.screen-color
+            h2.text-center.text-white VERSIONES
+            .row.headline
+                +card('Primera Versión','La primera versión de este popular lenguaje surge en 1993. En esta época, la IETF (Internet Engineering Tasking Force) estaba cargo del proyecto y ya se tenía un borrador para definir HTML como un estándar.','w left')
+                +card('Segunda Versión','En 1995, surge HTML 2.0, considerada el primer estándar oficial de este lenguaje. Esta primera versión no soportaba tablas y la declaración explícita de los elementos body, html y head era opcional.','w top')
+                +card('Tercera Versión','En 1996, las especificaciones del lenguaje HTML pasan a manos de W3C. A pesar de que para esa fecha ya había surgido HTML 3.0, nunca se estandarizó por lo que la segunda versión del lenguaje se publica en 1997 y se denomina HTML 3.2.','w right')
+            .row.justify-content-center.pb-5
+                +card('Cuarta Versión','HTML 4.0 sería lanzada en 1998 que incluiría una serie de novedades como la posibilidad de incluir scripts en las páginas web, añadir hojas de estilos CSS, inclusión de tablas complejas así como mejoras generales en los formularios y la accesibilidad de las páginas.','w2 left')
+                +card('Quinta Versión','HTML5 es la quinta revisión del lenguaje HTML lanzada en 2014. Posee dos variantes de sintaxis, la clásica HTML y la nueva XHTML. Aunque HTML5 ha traído bastantes novedades, uno de sus mayores beneficios es la adición de nuevas etiquetas que permiten la creación de una estructura para la web semántica.','w2 right')
+    

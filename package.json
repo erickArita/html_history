@@ -4,12 +4,7 @@
   "description": "historia de html",
   "main": "node src/app.js",
   "dependencies": {
-    "@popperjs/core": "^2.4.2",
-    "aos": "^2.3.4",
-    "bootstrap": "^4.5.0",
     "express": "^4.17.1",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.5.1",
     "pug": "^3.0.0"
   },
   "devDependencies": {

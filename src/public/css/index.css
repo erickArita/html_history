@@ -1,6 +1,5 @@
- body {
+ html {
      scroll-behavior: smooth;
-
  }
 
  body::-webkit-scrollbar {
@@ -18,7 +17,7 @@
  }
 
  .img {
-     padding-left: 3em;
+     padding-left: 5%;
      height: 3em;
 
  }
@@ -30,7 +29,8 @@
 
  .h-text {
      color: white;
-     font-size: 20px;
+     min-inline-size: 0.5em;
+     font-size: 1em;
      transition: 800ms;
  }
 
@@ -72,18 +72,142 @@
  .bg-footer {
      background-color: #130d0d;
  }
+
  .bg-header {
      background-color: #130d0de3;
  }
 
  /* color encima del bg */
  .screen-color {
-     height: 100%;
+     height: max-content;
      background-image: linear-gradient(to left bottom, #0b2fae, #2d47bd, #455ecb, #5c75d8, #738ce5);
  }
 
  /* h1 */
  h1 {
      color: white;
-     font-size: 3em;
  }
+
+ .cardH {
+     padding: 1vw 1vw;
+     width: 50vw;
+
+     height: 14vw;
+ }
+
+ .cardH p {
+     font-size: 1.9vw;
+
+ }
+
+ .font {
+     font-size: 2vw;
+     font-size: 3.5vmin;
+
+ }
+
+ .img-content {
+     border-radius: 1vw;
+     margin-top: 1rem;
+     margin-left: 25vw;
+     width: 50vw;
+     min-width: 30vw;
+     padding-bottom: 7vh;
+
+ }
+
+ .text-s {
+     font-size: 1.2vw;
+ }
+
+ .w {
+
+     margin-top: 2vw;
+     margin-left: 4vw;
+     max-width: 25vw;
+     max-height: auto;
+
+
+ }
+
+ .w2 {
+
+     margin-top: 2vw;
+     margin-left: 3vw;
+     max-width: 31.5vw;
+     max-height: auto;
+     min-height: max-content;
+     min-width: max-content;
+
+
+ }
+
+ .w h2 {
+     font-size: 2.2vw;
+ }
+
+ .w p {
+     font-size: 1.3vw;
+ }
+
+ .w2 h2 {
+     font-size: 2.3vw;
+ }
+
+ .w2 p {
+     font-size: 1.3vw;
+ }
+
+ footer {
+     margin-bottom: 0;
+ }
+
+ .footer-i {
+     font-size: 5vw;
+     transition: 1s;
+
+ }
+
+ .footer-i:hover {
+     transition: 1s;
+     color: white;
+ }
+
+ .card-body {
+     padding: 1.5vh 1.5vw;
+ }
+
+ .row {
+     width: 90vw;
+     margin: auto;
+ }
+
+ .h-110 {
+     height: 110vh !important;
+ }
+
+ .h-100 {
+     height: 100vh !important;
+     
+ }
+
+ /* historia */
+ .img-historia {
+     height: 40vw;
+     border-radius: 1vw;
+     min-height: 18rem;
+     margin-left: 4vw;
+     
+ }
+ .card-md-6{
+    margin-top: 5vw;
+    min-height: 14rem;
+    min-width:14rem;
+ }
+ .text-s{
+     font-size: 1.3vmin;
+     font-size: 1.3vmax;
+     
+     min-width: 4rem;
+ }
+ 

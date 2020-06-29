@@ -23,6 +23,8 @@ app.use(express.static(path.join(__dirname,'./public')))
 app.use((req,res)=>{
     res.status(404).render('404')
 })
+
 app.listen(app.get('port') , ()=>{
     console.log('server on port ',app.get('port'))
 })
+
