@@ -18,7 +18,12 @@ nav.navbar.navbar-expand-md.navbar-dark.bg-dark
             a.nav-link(href="/") HOME
 
           li.nav-item.active
-            a.nav-link(href="#historia") VERSIONES
+            
+            if name =='index'
+              a.nav-link(href="#historia") VERSIONES
+            else
+              a.nav-link(href="/#historia") VERSIONES
+
           li.nav-item.active
             a.nav-link(href="/historia") HISTORIA
  
@@ -26,6 +31,6 @@ nav.navbar.navbar-expand-md.navbar-dark.bg-dark
             a#dropdown01.nav-link.dropdown-toggle.mr-5(href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") ETIQUETAS
             //- se sobre entiende que estas clases pertenecen a un div   
             .dropdown-menu
-              a.dropdown-item(href="/mas-usadas") MÁS USADAS
-              a.dropdown-item(href="/basicas") BÁSICAS
-              a.dropdown-item(href="/estructura") ESTRUCTURA HTML
+              a.dropdown-item(href="/etiquetas#mas-usadas") MÁS USADAS
+              a.dropdown-item(href="/etiquetas#basicas") BÁSICAS
+               

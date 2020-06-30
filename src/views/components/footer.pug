@@ -9,6 +9,12 @@
     ul.nav.ml-3
         li.nav-item 
             a(class='nav-link  h-text text-s' href='/') INICIO
+
+        li.nav-item 
+            if name =='index'
+              a.nav-link.h-text.text-s(href="#historia") VERSIONES
+            if name == 'historia'
+              a.nav-link.h-text.text-s(href="/#historia") VERSIONES
         li.nav-item 
             a(class='nav-link h-text text-s' href='/historia') HISTORIA  
         li.nav-item 
