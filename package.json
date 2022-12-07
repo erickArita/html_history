@@ -4,7 +4,7 @@
   "description": "historia de html",
   "main": "node src/app.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "pug": "^3.0.0"
   },
   "devDependencies": {
